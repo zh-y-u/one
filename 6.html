@@ -1,0 +1,200 @@
+!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="./jquery-1.11.3.js"></script>
+    <script src="./bootstrap.min.js"></script>
+    <link rel="stylesheet" href="./bootstrap.min.css">
+
+
+    <script type="text/javascript">
+        var aa = 1
+
+        function changeB() {
+            //     // alert($("xuming").val());
+            console.log(bb.value)
+            bb = document.getElementById("xuming")
+            bb.text = "你已经续了" + aa + "秒";
+
+            aa++;
+
+
+            console.log('调试区');
+        }
+        // // 鼠标点击特效
+        var mouseSum = 0;
+        // jQuery(document).ready(function($)
+
+        $(function() {
+            $(".btn-xym").click(function(e) {
+                //    var a = new Array("蛤","+1s", "暗牧安格瑞", "这是坠吼的", "无可奉告", "识得唔识得啊", "这是坠痛苦", "你们毕竟还图样" ,"你们啊naive", "提高自己的姿势水平", "不知道高到那你去", "too simple!", "闷声发大财");
+                var a = new Array("+1s");
+                var $i = $("<span/>").text(a[mouseSum]);
+                mouseSum = (mouseSum + 1) % a.length;
+                var x = e.pageX,
+                    y = e.pageY;
+                $i.css({
+                    "z-index": 9999999,
+                    "top": y - 20,
+                    "left": x,
+                    "position": "absolute",
+                    "font-weight": "bold",
+                    "color": "#6651ff"
+                });
+                var xm = 1
+                $("#xuming").val = "你已经续了" + xm + "秒";
+                xm++;
+
+                $("body").append($i);
+                $i.animate({ /* */
+                        "top": y - 180,
+                        "opacity": 0
+                    },
+                    1500,
+                    function() {
+                        $i.remove();
+                    });
+            });
+        });
+    </script>
+
+
+    <meta charset="UTF-8">
+    <title>Insert title here</title>
+
+
+</head>
+
+
+
+
+<title>Document</title>
+<style>
+    .aside {
+        margin-top: 20px;
+        padding: 0px;
+    }
+</style>
+
+
+
+
+</head>
+
+<body>
+    <nav class="navbar navbar-inverse" role="navigation">
+        <div class="navbar-header">
+            <a class="navbar-brand" href="#">时间众筹委员会</a>
+            <img src="1.png" class="img-circle" width=50px height="50px">
+        </div>
+        <ul class="nav navbar-nav">
+            <li class="active"><a href="#">首页 <span class="sr-only">(current)</span></a></li>
+
+            <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">我一句话也不说<span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                    <li><a href="#">xx1</a></li>
+                    <li><a href="#">Another xx</a></li>
+                    <li><a href="#">xx3</a></li>
+                    <li role="separator" class="divider"></li>
+                    <li><a href="#">Separated link</a></li>
+                    <li role="separator" class="divider"></li>
+                    <li><a href="名单.xls">1是2月枪毙名单</a></li>
+                </ul>
+            </li>
+            <li><a href="#">关于本站作者</a></li>
+        </ul>
+
+
+        <form class="navbar-form navbar-right">
+            <div class="form-group">
+                <input type="text" class="form-control" placeholder="有内鬼,暂停登陆">
+            </div>
+            <div class="form-group">
+                <input type="password" class="form-control" placeholder="密码">
+            </div>
+            <button type="submit" class="btn btn-default">登录</button>
+        </form>
+    </nav>
+
+    <!-- 侧边框 -->
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-2 col-sm-3 aside">
+                <ul class="nav nav-pills nav-stacked">
+                    <li class="active"><a href="#">三个代表重要思想</a></li>
+                    <li><a href="#">添加用户</a></li>
+                    <li><a href="#">自定义用户</a></li>
+                    <li><a href="#">修改用户</a></li>
+                </ul>
+                <ul class="nav nav-pills nav-stacked">
+                    <li class="active"><a href="#">社会主义市场经济</a></li>
+                    <li><a href="#">添加用户</a></li>
+                    <li><a href="#">自定义用户</a></li>
+                    <li><a href="#">修改用户</a></li>
+                </ul>
+                <ul class="nav nav-pills nav-stacked">
+                    <li class="active"><a href="#">军队不再经商</a></li>
+                    <li><a href="#">添加用户</a></li>
+                    <li><a href="#">自定义用户</a></li>
+                    <li><a href="#">修改用户</a></li>
+                </ul>
+            </div>
+
+
+
+            <!-- 中间的主体部分 -->
+            <div class="col-md-10 col-sm-9">
+                <h2>中间的主体部分</h2>
+                <br>
+                <br>
+                <p>
+                    <button class="btn btn-lg btn-default btn-xym">续一秒</button>
+                    <button class="btn btn-lg btn-danger">操作1</button>
+                    <button class="btn btn-lg btn-info">操作1</button>
+                    <!-- <button class="btn btn-lg btn-primary">操作1</button>
+                            <button class="btn btn-lg btn-warning">操作1</button>
+                            <button class="btn btn-lg btn-success">操作1</button> -->
+                </p>
+                <!-- 栅格系统 -->
+                <div class="row">
+                    <!-- 左 -->
+                    <div class="col-md-6 col-sm-6">
+                        <div class="panel panel-primary">
+                            <img src="zui.jpg" style="width:300px" alt="125">
+                            <br> --
+                            <span>最高指示</span>
+                            <p>
+                                <button class="btn btn-lg btn-default btn-xym col-md-4" onclick="changeB()">点击续命</button>
+                                <button class="btn btn-lg btn-default btn-xym col-md-4" id="xuming">你已经续了0秒!</button>
+                            </p>
+                        </div>
+                    </div>
+                    <!-- 右 -->
+                    <div class="col-md-6 col-sm-6">
+                        <div class="panel panel-primary">
+                            <div class="panel-heading">项目名称</div>
+                            <div class="panel-body alert alert-info">
+                                66666666666666
+                            </div>
+                            <div class="panel-body alert alert-info">
+                                66666666666666
+                            </div>
+                            <div class="panel-body alert alert-info">
+                                66666666666666
+                            </div>
+
+                            <div class="panel-footer">帅气的江主席</div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+
+</body>
+
+</html>

@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+    cursor: url(https://images2015.cnblogs.com/blog/961272/201607/961272-20160719145928310-806072030.gif), default!important;
+    cursor: url(https://tb2.bdstatic.com/tb/editor/images/face/i_f25.png?t=20140803), default!important;
+}
+body{
+    background-image:url("/images/mazu.jpg");
+    background-size: contain;
+
+}
+.konw{
+    background-color:black;
+}
+.mazu{
+    width: 80%;
+    height: 500px;
+
+    background-image: url("images/mazu.jpg");
+    /*background-image: url("/images/bg.jpg");*/
+    margin: 100px;
+    /*background-size: cover;*/
+    background-size: cover;
+    background-color: #00A1D6;
+    text-align:center;
+}
+
+
+div {
+    font-size: 30px;
+    font-family: 'Microsoft yahei';
+    font-weight: bold;
+}
+
+li {
+    list-style: none;
+}
+
+#header,
+#footer {
+    width: 1300px;
+    height: 800px;
+    background: #ffcccc;
+    margin: 0 auto;
+    line-height: 500px;
+    text-align: center;
+}
+
+#content {
+    width: 1300px;
+    margin: 0 auto;
+    position: relative;
+}
+
+#content div.nav {
+    width: 1300px;
+    height: 500px;
+}
+
+#slide {
+    width: 75px;
+    height: 250px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    background: #e6f7f7;
+    float: right;
+    position: fixed;
+    top: 230px;
+}
+
+#slide ul li.control {
+    width: 75px;
+    height: 32px;
+    line-height: 32px;
+    text-align: center;
+    font-size: 12px;
+    color: #000;
+    font-weight: normal;
+    cursor: pointer;
+    transition: 0.2s;
+    position: relative;
+    z-index: 2;
+}
+
+#slide ul li.blue {
+    background: #00A1D6;
+    width: 75px;
+    text-align: center;
+    height: 10px;
+    position: absolute;
+    top: 0px;
+    z-index: 1;
+    display: none;
+}
+
+#slide ul li:hover {
+    background: #00A1D6;
+    color: #fff;
+}
+
+#slide ul li.on {
+    background: #00A1D6;
+    color: #fff;
+}
+
+#slide_wrap {
+    position: absolute;
+    right: -10px;
+}
+#myphoto{
+    width:40px;
+    height:30px;
+    float: right;
+    margin: 50px;
+}
