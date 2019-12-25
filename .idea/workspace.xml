@@ -1,7 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5a144c23-a04b-44e1-b557-e000d8edc18b" name="Default Changelist" comment="" />
+    <list default="true" id="5a144c23-a04b-44e1-b557-e000d8edc18b" name="Default Changelist" comment="测试">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fs.html" beforeDir="false" afterPath="$PROJECT_DIR$/fs.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms.html" beforeDir="false" afterPath="$PROJECT_DIR$/ms.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test.1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tttt2.html" beforeDir="false" afterPath="$PROJECT_DIR$/tttt2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/标题栏 new.html" beforeDir="false" afterPath="$PROJECT_DIR$/标题栏 new.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/模板.1.html" beforeDir="false" afterPath="$PROJECT_DIR$/模板.1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/模板.html" beforeDir="false" afterPath="$PROJECT_DIR$/模板.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/注册表单.html" beforeDir="false" afterPath="$PROJECT_DIR$/注册表单.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/注册表单备份.html" beforeDir="false" afterPath="$PROJECT_DIR$/注册表单备份.html" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,9 +29,19 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="PUSH_TAGS">
+      <GitPushTagMode>
+        <option name="argument" value="--tags" />
+        <option name="title" value="All" />
+      </GitPushTagMode>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1VLkImZIk0qSDkQHPcR7QJMjAXz" />
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
@@ -29,21 +51,21 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Color Scheme Font" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.appearance" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="G:\Program Files\Desktop\新建文件夹 (6)\js" />
+      <recent name="G:\Program Files\Desktop\新建文件夹 (6)\images" />
+      <recent name="G:\Program Files\Desktop\新建文件夹 (6)\css" />
+      <recent name="G:\Program Files\Desktop\新建文件夹 (6)" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="G:\Program Files\Desktop\软件Q171 李振宇 201709601005" />
       <recent name="G:\Program Files\Desktop\新建文件夹 (6)\ms" />
       <recent name="G:\Program Files\Desktop\新建文件夹 (6)\css" />
       <recent name="G:\Program Files\Desktop\新建文件夹 (6)\js" />
       <recent name="G:\Program Files\Desktop\新建文件夹 (6)\images" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="G:\Program Files\Desktop\新建文件夹 (6)\js" />
-      <recent name="G:\Program Files\Desktop\新建文件夹 (6)\images" />
-      <recent name="G:\Program Files\Desktop\新建文件夹 (6)\css" />
-      <recent name="G:\Program Files\Desktop\新建文件夹 (6)" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -58,11 +80,17 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Node.js.base.js">
+  <component name="RunManager" selected="JavaScript Debug.注册表单2.html">
     <configuration name="标题栏 new.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/软件Q171 李振宇 201709601005/标题栏 new.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
+    <configuration name="注册表单2.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/软件Q171 李振宇 201709601005/注册表单2.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
     <configuration name="注册表单.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/软件Q171 李振宇 201709601005/注册表单.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="注册表单备份.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/软件Q171 李振宇 201709601005/注册表单备份.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <configuration name="标题栏.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/软件Q171 李振宇 201709601005/标题栏.html" useBuiltInWebServerPort="true">
@@ -71,15 +99,13 @@
     <configuration name="tttt1.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/软件Q171 李振宇 201709601005/tttt1.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="base.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="base.js" working-dir="$PROJECT_DIR$/js">
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Node.js.base.js" />
+        <item itemvalue="JavaScript Debug.注册表单2.html" />
         <item itemvalue="JavaScript Debug.标题栏 new.html" />
-        <item itemvalue="JavaScript Debug.注册表单.html" />
         <item itemvalue="JavaScript Debug.tttt1.html" />
+        <item itemvalue="JavaScript Debug.注册表单.html" />
+        <item itemvalue="JavaScript Debug.注册表单备份.html" />
       </list>
     </recent_temporary>
   </component>
@@ -102,11 +128,37 @@
       <workItem from="1577113554427" duration="694000" />
       <workItem from="1577118330351" duration="1887000" />
       <workItem from="1577148375616" duration="181000" />
+      <workItem from="1577203286151" duration="2466000" />
+      <workItem from="1577206884306" duration="449000" />
+      <workItem from="1577207559088" duration="666000" />
     </task>
+    <task id="LOCAL-00001" summary="测试">
+      <created>1577205871721</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1577205871721</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="测试" />
+    <option name="LAST_COMMIT_MESSAGE" value="测试" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Q171__201709601005$_new_html.dat" NAME="标题栏 new.html Coverage Results" MODIFIED="1577118553859" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="WipCoverageRunner" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
